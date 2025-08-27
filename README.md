@@ -18,5 +18,14 @@ Step 5: Run Your Flask Server
 python server.py
 
 It will show:
-* Running on http://127.0.0.1:5000
-* 
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.x.x:5000 (your local network IP)
+
+Step 4: Access the Server
+On your laptop → open a browser → go to
+👉 http://127.0.0.1:5000
+You’ll see:
+✅ Hello! Your laptop is working as a server.
+
+On another device in the same Wi-Fi (like your phone) → go to
+👉 http://192.168.x.x:5000 (use the IP Flask shows).
